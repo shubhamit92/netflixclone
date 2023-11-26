@@ -7,9 +7,9 @@ body{
 }
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 68vw;
+   
     margin: auto;
     height: 80px;
 }  
@@ -220,11 +220,11 @@ body{
         
         padding-top: 17px;
         height: 92px;
-        margin: 0 8px 0 30px;
+        margin: -6px 17px 0 17px;
        
     }
     .nav img {
-        width: 80px;
+        width: 111px;
         float: left;
     }
     .hero{
@@ -316,9 +316,9 @@ body{
         list-style: none;
         justify-content: space-evenly;
     }
-
-    .first-22{
-        flex-direction: column-reverse;
+    .btn {
+        padding: 7px 11px;
     }
+
     
 }
